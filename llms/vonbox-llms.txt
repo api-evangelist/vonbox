@@ -1,0 +1,16 @@
+# VonBox (Vonjour)
+
+> VonBox operated as Vonjour (vonjour.com), a Santa Monica, CA cloud communications startup offering phone, text messaging, and contact center services, backed by 500 Global (then 500 Startups) and Kima Ventures circa 2014-2015. The vonjour.com website is no longer live (DNS resolves but HTTP does not respond), and the company publishes no public API, developer documentation, or client packages. The founding team (Daniel Tawfik, Aman Fahimullah) went on to build ZenPatient (zenpatient.com), a digital health platform; the company GitHub organization github.com/Vonjour is now branded ZenPatient.
+
+## Profile
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/vonbox/refs/heads/main/apis.yml): Machine-readable APIs.json (YAML) profile of VonBox in the API Evangelist network
+- [GitHub organization](https://github.com/Vonjour): Company GitHub organization (now branded ZenPatient)
+
+## APIs
+
+No public API surface is currently published. api.zenpatient.com is a live backend for the ZenPatient application but exposes no public developer documentation or OpenAPI.
+
+## Security
+
+- [Domain security profile](https://raw.githubusercontent.com/api-evangelist/vonbox/refs/heads/main/security/vonbox-domain-security.yml): Probed TLS/DNS posture for vonjour.com

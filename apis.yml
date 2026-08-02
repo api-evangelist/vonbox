@@ -1,19 +1,42 @@
 aid: vonbox
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vonbox.png
 name: VonBox
-description: VonBox is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: VonBox operated as Vonjour (vonjour.com), a Santa Monica, CA cloud communications
+  startup offering phone, text messaging, and contact center services for small businesses,
+  backed by 500 Global (then 500 Startups) and Kima Ventures circa 2014-2015, including a
+  Vonjour for 500 Startups perk program. The vonjour.com website is no longer live (DNS
+  resolves but HTTP does not respond), and no public API, developer documentation, or client
+  packages are published. The founding team (Daniel Tawfik, Aman Fahimullah) went on to build
+  ZenPatient (zenpatient.com), a digital health platform, and the company GitHub organization
+  github.com/Vonjour is now branded ZenPatient.
 url: https://raw.githubusercontent.com/api-evangelist/vonbox/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-defunct-website
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Communications
+- Telephony
+- Messaging
+- Contact Centers
+- Startups
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,14 @@ maintainers:
 common:
 - type: Website
   url: https://vonjour.com
+- type: GitHubOrganization
+  url: https://github.com/Vonjour
+- type: DomainSecurity
+  url: security/vonbox-domain-security.yml
+- type: LLMsTxt
+  url: llms/vonbox-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
